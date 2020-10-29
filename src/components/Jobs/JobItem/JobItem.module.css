@@ -1,0 +1,73 @@
+.JobItemContiner {
+    width: 95%;
+    min-width: 200px;
+    height: 200px;
+    background-color: tomato;
+    margin: auto;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px grey;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    word-break: break-all;
+}
+
+.JobItemContent {
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    width: 100%;
+}
+
+.IconContainer {
+    width: 40%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.Icon {
+    width: 50px;
+    height: 50px;
+    color: rgb(116, 116, 253);
+}
+
+.Content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Delete {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    box-shadow: 0 0 5px 0 grey;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.Delete:hover {
+    transform: scale(1.05);
+}
+
+.Delete:active {
+    background-color: rgb(255, 65, 31);
+    color: white;
+} 
+
+.Title {
+    color: rgb(19, 19, 19);
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.Company {
+    margin-bottom: 3px;
+
+}
