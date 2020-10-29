@@ -7,7 +7,7 @@ import {AiOutlineDelete} from 'react-icons/ai'
 const JobItem = props => {
 
     let { job = {} } = props;
-    let icon = null
+    let icon = null;
     if ( job.id === "programming" ) {
         icon = <BsCodeSlash className={classes.Icon} />
     } else {
